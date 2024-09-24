@@ -14,7 +14,7 @@ body {
     background-image: url("../images/Orange+Box.png");
     background-repeat: repeat-y;
     background-attachment: scroll;
-    background-position: 0% left 90% top;
+    background-position: 0% 90%;
 }
 a:focus, a:hover {
     font-style: italic;
