@@ -12,6 +12,7 @@ body {
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
     background-image: url("../images/Orange+Box.png");
+    background-size: auto;
     background-repeat: repeat-y;
     background-position: right;
     background-attachment: scroll;
