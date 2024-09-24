@@ -11,8 +11,11 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    background-repeat: repeat-y;
     background-image: url("../images/Orange+Box.png");
+    background-repeat: repeat-y;
+    background-position: right;
+    background-attachment: scroll;
+  
 }
 a:focus, a:hover {
     font-style: italic;
@@ -53,6 +56,9 @@ main nav {
     border-radius: 20px;
     box-shadow: 3px,3px,4px,4px, red;
     padding: 0.5em;
+}
+main div.contact {
+    
 }
 #list {
     line-height: 1.5em;
