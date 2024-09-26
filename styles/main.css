@@ -14,7 +14,7 @@ body {
     background-image: url("../images/shsu.png135435.png");
     background-repeat: repeat-y;
     background-attachment: scroll;
-    background-position: left;
+    background-position: right;
 }
 a:focus, a:hover {
     font-style: italic;
