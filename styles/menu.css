@@ -1,6 +1,6 @@
-#nav menu ul { list-style-type: none;}
-#nav menu ul { float: left;}
-#nav menu ul {
+#nav_menu ul { list-style-type: none;}
+#nav_menu ul { float: left;}
+#nav_menu ul {
     text-align: center;
     display: block;
     width: 175px;
@@ -11,7 +11,7 @@
     font-weight: bold;
     border-right: 2px solid white;
 }
-#nav menu ul li a.lastitem {border-right: none;}
-#nav menu ul li a.current {color: yellow;}
+#nav_menu ul li a.lastitem {border-right: none;}
+#nav_menu ul li a.current {color: yellow;}
 aside ol { list-style-type: upper-roman;}
 aside ul { list-style-type: square;}
