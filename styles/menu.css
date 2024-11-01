@@ -22,6 +22,9 @@
 #nav_menu ul li a.current {
     color: yellow;
 }
+article {
+    float: left;
+}
 aside ol {
     list-style-type: upper-roman;
 }
