@@ -27,6 +27,7 @@ article {
 }
 aside ol {
     list-style-type: upper-roman;
+    float: left;
 }
 aside ul {
     list-style-type: square;
