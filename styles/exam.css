@@ -44,7 +44,7 @@ article image {
     float: left;
     margin-right: 1em;
     margin-bottom: 1em;
-    }
+}
 article {
     clear: left;
     width: 70%;        float: left;
@@ -52,4 +52,14 @@ article {
     column-rule: 2px dotted maroon;
     column-gap: 2em;
     margin-left: 2em;
+}
+a:focus, a:hover {
+    font-style: italic;
+    color:orangered;
+    border: 3px blue;
+    border-style: dotted solid;
+}
+footer {
+    clear: both;
+    border-top: 2px solid maroon;
 }
