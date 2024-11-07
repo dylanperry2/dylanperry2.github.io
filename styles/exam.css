@@ -40,3 +40,16 @@ body {
     background-attachment: scroll;
     background-position: right;
 }
+article image {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    }
+article {
+    clear: left;
+    width: 70%;        float: left;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
+}
