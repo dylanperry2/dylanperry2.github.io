@@ -57,8 +57,14 @@ a:focus, a:hover {
     font-style: italic;
     color:orangered;
     border: 3px blue;
+    border-style: dotted;
 }
 footer {
     clear: both;
     border-top: 2px solid maroon;
+}
+aside {
+    width: 20%;
+    float: right;
+    background-color: deepskyblue;
 }
