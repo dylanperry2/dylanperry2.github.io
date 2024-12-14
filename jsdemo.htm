@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="styles/test_scores.js">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Dylan Dylan's personal website">
         <meta name="keywords" content="Dylan Perry, SHSU, Student">
         <title>dylanperry2.github.io</title>
+        <script src="styles/test_scores.js"></script> <!-- Corrected JavaScript file link -->
     </head>
     <body>
         <h1>The Test Scores App</h1>
-        <script src="test_scores.js"></script>
         <h1>The Miles Per Gallon Calculator</h1>
+        
         <script>
-        const miles = parseInt(prompt("Enter miles driven"));
-        const gallons = parseInt(prompt("Enter gallons of gas used"));
-        const mpg = parseFloat(miles/gallons);
-        const html2 = `<p>Miles: ${miles}</p>
-        <p>Gallons: ${gallons}</p>
-        <p>MPG: ${mpg.toFixed(2)}</p>`;
-        document.write(html2);
+            const miles = parseFloat(prompt("Enter miles driven"));
+            const gallons = parseFloat(prompt("Enter gallons of gas used"));
+            
+            if (isNaN(miles) || isNaN(gallons) || gallons === 0) {
+                alert("Please enter valid numbers, and gallons should not be zero.");
+            } else {
+                const mpg = miles / gallons;
+                const html2 = `<p>Miles: ${miles}</p>
+                <p>Gallons: ${gallons}</p>
+                <p>MPG: ${mpg.toFixed(2)}</p>`;
+                
+                // Safely add result to the page
+                const resultDiv = document.createElement('div');
+                resultDiv.innerHTML = html2;
+                document.body.appendChild(resultDiv);
+            }
         </script>
     </body>
 </html>
