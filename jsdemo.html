@@ -13,20 +13,13 @@
         <h1>The Miles Per Gallon Calculator</h1>
         
         <script>
-            const miles = parseFloat(prompt("Enter miles driven"));
-            const gallons = parseFloat(prompt("Enter gallons of gas used"));
-            
-            if (isNaN(miles) || isNaN(gallons) || gallons === 0) {
-                alert("Please enter valid numbers, and gallons should not be zero.");
-            } else {
-                const mpg = miles / gallons;
-                const html2 = `<p>Miles: ${miles}</p>
-                <p>Gallons: ${gallons}</p>
-                <p>MPG: ${mpg.toFixed(2)}</p>`;
-                const resultDiv = document.createElement('div');
-                resultDiv.innerHTML = html2;
-                document.write(html2);
-            }
+            const miles = parseInt(prompt("Enter miles driven"));
+            const gallons = parseInt(prompt("Enter gallons of gas used"));
+            const mpg = parseFloat(miles/gallons);
+            const html2 = `<p>Miles: ${miles}</p>
+            <p>Gallons: ${gallons}</p>
+            <p>MPG: ${mpg.toFixed(2)}</p>`;
+            document.write(html2);
         </script>
     </body>
 </html>
